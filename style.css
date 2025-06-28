@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(131, 81, 1);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page {
+    border: 2px solid rgb(59, 46, 13);
+    margin: 20px;
+    height: 90vh;
+    width: 40vw;
+    background-color: rgb(255, 188, 65);
+    border-radius: 7px;
+    position: relative;
+
+}
+
+.landing-page h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 4rem;
+    color: rgb(79, 42, 3)
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.button button {
+    padding: 1rem 5rem;
+    border-radius: 7px;
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.line {
+    position: absolute;
+    width: 40vw;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    bottom: 0px;
+    border-radius: 7px;
+
+}
+
+.main-page {
+    border: 2px solid rgb(66, 47, 9);
+    width: 55vw;
+    background-color: rgb(255, 188, 65);
+    border-radius: 7px;
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(226, 147, 0);
+    border-bottom: 2px solid rgb(66, 47, 9);
+    border-radius: 7px;
+
+}
+
+.que-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#questionNumber {
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+#questionText {
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    width: 33vw;
+    padding: 2rem 5rem;
+    border-radius: 7px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#optionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+#optionsContainer button {
+    padding: 0.8rem 10rem;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: 600;
+    background-color: antiquewhite;
+    color: rgb(66, 47, 9);
+    width: 30vw;
+    text-align: center;
+}
+
+.nextButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.nextButton button {
+
+    padding: 0.8rem 3rem;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: 600;
+    background-color: rgb(249, 150, 21);
+    color: rgb(66, 47, 9);
+    color: white;
+}
+
+.timeoutPage {
+    border: 2px solid black;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 7px;
+
+}
+
+.timeout {
+    border-radius: 7px;
+    background-color: rgb(229, 229, 229);
+    padding: 40px;
+    display: none;
+}
+
+.clock-icon {
+    color: rgb(150, 3, 3);
+}
+
+.icon i {
+    font-size: 35px;
+}
+
+.para p {
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.okBtn button {
+    padding: 1rem 5rem;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: rgb(74, 199, 253);
+    color: white;
+    border: none;
+    border-radius: 7px;
+
+}
+
+.submit{
+    border: 2px solid black;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    color: rgb(77, 47, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.SubmitPage{
+    background-color: rgb(243, 191, 70);
+    padding: 90px;
+    border-radius: 7px;
+    display: none;
+}
+
+.total-Score{
+    font-size: 39px;
+}
+
+.restartBtn button{
+    padding: 1rem 5rem;
+    border-radius: 7px;
+    font-size: 19px;
+    background-color: rgb(246, 139, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+
+}

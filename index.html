@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <main>
+
+        <div class="myAudio">
+            <audio src="Assets/kgftune.mp3"></audio>
+        </div>
+        <div class="landing-page">
+            <h1>
+                Quiz Master
+            </h1>
+
+            <div class="button">
+                <button>
+                    Start Quiz
+                </button>
+            </div>
+
+
+            <div class="line">
+                <h2>Leaderboard</h2>
+                <h2>categories</h2>
+            </div>
+
+        </div>
+
+
+        <div class="main-page">
+
+            <div class="nav">
+                <h1 class="score-board">Score : <span></span></h1>
+                <h1>⏱ Time left : <span id="timer">10</span></h1>
+            </div>
+
+            <div class="que-section">
+                <h2 id="questionNumber">Question <span></span> of <span class="total-que"></span></h2>
+
+                <!-- Question Text -->
+                <h3 id="questionText"></h3>
+            </div>
+
+            <div id="optionsContainer">
+                <button class="optionBtn"></button>
+                <button class="optionBtn"></button>
+                <button class="optionBtn"></button>
+                <button class="optionBtn"></button>
+            </div>
+
+            <div class="nextButton">
+                <button class="nextBtn">Next Question</button>
+            </div>
+        </div>
+
+
+        <div class="timeout">
+
+
+            <div class="timeoutPage">
+
+                <div class="icon"><i class="fas fa-clock clock-icon"></i>
+
+                </div>
+                <div class="Timeout-Text">
+                    <h1>Time's Up!!</h1>
+                </div>
+
+                <div class="para">
+                    <p>You've run out of the time !!</p>
+                </div>
+
+                <div class="okBtn">
+                    <button>OK</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="SubmitPage">
+            <div class="submit">
+                <div class="heading">
+                    <h1>Quiz!!</h1>
+                </div>
+
+                <div class="submit-page">
+                    <h2>Quiz Completed</h2>
+                </div>
+
+                <div class="total-Score">
+                    <p>Your Score : <span>0</span></p>
+                </div>
+
+                <div class="restartBtn">
+                    <button>Restart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
